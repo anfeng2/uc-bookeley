@@ -1,0 +1,42 @@
+#full_screen {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* .flex {
+    display: flex;
+} */
+
+.title {
+    color: white;
+    font-size: 48px;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 3px 3px 3px #181818;
+    position: absolute;
+    left: 5%;
+    top: 44%;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#button {
+    background-color: #f0cb49;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left: 6%;
+    top: 57%;
+    display: flex;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 15px;
+}
