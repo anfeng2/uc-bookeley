@@ -5,15 +5,11 @@
     padding: 0;
 }
 
-/* .flex {
-    display: flex;
-} */
-
 .title {
     color: white;
     font-size: 48px;
     font-family: 'Libre Baskerville', serif;
-    text-shadow: 3px 3px 3px #181818;
+    text-shadow: 3px 3px 4px black;
     position: absolute;
     left: 5%;
     top: 44%;
@@ -39,4 +35,5 @@ h2 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 15px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
 }

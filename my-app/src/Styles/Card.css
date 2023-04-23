@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+.row {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Clear floats after the columns */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: white;
+    border-radius: 10px;
+    height: 440px;
+}
+
+.card > img {
+    width: 100%;
+    height: auto;
+}
+
+.card > h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.hour {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hour > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.open_dot {
+    height: 16px;
+    width: 16px;
+    background-color: #81BE87;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+
+.closed_dot {
+    height: 16px;
+    width: 16px;
+    background-color: #CA6666;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.right {
+    display: flex;
+}
+
+.right > p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
