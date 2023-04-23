@@ -27,7 +27,7 @@ const Home = () => {
             <div>
                 <img id = "full_screen" src={banner_img} alt="people walking in front of Doe Library"></img>
                 <h1 class="title"> Welcome to UC Berkeley's Libraries</h1>
-                <Link id = "button" to="/mapfeed" style={linkStyle}>Find a library</Link>
+                <Link id = "button" to="/uc-bookeley/mapfeed" style={linkStyle}>Find a library</Link>
             </div>
             <br></br>
             <br></br>
