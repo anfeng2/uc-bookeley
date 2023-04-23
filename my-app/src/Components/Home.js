@@ -58,7 +58,7 @@ const Home = () => {
                     <Card pic={engineering} library="Engineering Library" lib_json={lib_info["Engineering"]}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={environ_design} library="Environment Design Lib" lib_json={lib_info["Environmental Design"]}></Card>
+                    <Card pic={environ_design} library="Environmental Design Lib" lib_json={lib_info["Environmental Design"]}></Card>
                 </div>
                 <div class="column">
                     <Card pic={chemistry} library="Chemistry Library" lib_json={lib_info["Chemistry"]}></Card>

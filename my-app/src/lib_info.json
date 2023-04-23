@@ -30,7 +30,7 @@
     "East Asian": 
         { 
             "hours":"9am - 5pm",
-            "address": "C. V. Starr East Asian LibraryUniversity of CaliforniaBerkeley, CA 94720-6000510-642-2556",
+            "address": "C. V. Starr East Asian Library University of California Berkeley, CA 94720-6000",
             "start": 9,
             "end": 17
         },
@@ -44,7 +44,7 @@
     "Environmental Design": 
         { 
             "hours":"9am - 10pm",
-            "address": "Environmental Design Library 210 Bauer Wurster Hall University of  California Berkeley, CA 94720-6000",
+            "address": "Environmental Design Library 210 Bauer Wurster Hall University of California Berkeley, CA 94720-6000",
             "start": 9,
             "end": 22
         },
