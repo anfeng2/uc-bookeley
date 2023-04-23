@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const uri = "mongodb+srv://tbaba808:<password>@cluster0.crgbuj2.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://tbaba808:mongo123@cluster0.crgbuj2.mongodb.net/?retryWrites=true&w=majority";
 
 const InitiateMongoServer = async () => {
     try {
