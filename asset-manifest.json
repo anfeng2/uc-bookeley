@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/uc-bookeley/static/css/main.ce157aed.css",
+    "main.js": "/uc-bookeley/static/js/main.3d144918.js",
+    "static/js/787.28cb0dcd.chunk.js": "/uc-bookeley/static/js/787.28cb0dcd.chunk.js",
+    "static/media/banner_img.png": "/uc-bookeley/static/media/banner_img.2829779122d26d2ea4bf.png",
+    "static/media/chemistry.png": "/uc-bookeley/static/media/chemistry.1eb6436f39cbdc77a865.png",
+    "static/media/engineering.png": "/uc-bookeley/static/media/engineering.abca8bbc82a2a1a27769.png",
+    "static/media/east_asian.png": "/uc-bookeley/static/media/east_asian.a2a85b2844b60881ad3a.png",
+    "static/media/moffitt.png": "/uc-bookeley/static/media/moffitt.fb3dafcb303f3e5527fb.png",
+    "static/media/VLSB.png": "/uc-bookeley/static/media/VLSB.3fe09362c7c2577785c7.png",
+    "static/media/environ_design.png": "/uc-bookeley/static/media/environ_design.643a1516e21ff25635a3.png",
+    "static/media/main_stacks.png": "/uc-bookeley/static/media/main_stacks.3608c057747eaa4585da.png",
+    "static/media/doe.png": "/uc-bookeley/static/media/doe.1012a2fec5a84eca48b3.png",
+    "index.html": "/uc-bookeley/index.html",
+    "main.ce157aed.css.map": "/uc-bookeley/static/css/main.ce157aed.css.map",
+    "main.3d144918.js.map": "/uc-bookeley/static/js/main.3d144918.js.map",
+    "787.28cb0dcd.chunk.js.map": "/uc-bookeley/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce157aed.css",
+    "static/js/main.3d144918.js"
+  ]
+}
