@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/mapfeed' element={<MapFeed/>} />
+        <Route path='/uc-bookeley/' element={<Home/>}/>
+        <Route path='/uc-bookeley/mapfeed' element={<MapFeed/>} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,58 @@
+{
+    "Doe": 
+       {
+          "hours":"8am - 9pm",
+          "address": "Charles Franklin Doe Memorial Library University of California Berkeley, CA 94720-6000",
+          "start": 8,
+          "end": 21
+       },
+    "Moffitt": 
+       {
+          "hours":"24 hours",
+          "address": "James K. Moffitt Library University of California Berkeley, CA 94720-6000",
+          "start": 0,
+          "end": 24
+       },
+    "Main Stacks": 
+        { 
+            "hours":"9am - 2am",
+            "address": "198 Main (Gardner) Stacks University of California Berkeley, CA 94720-6000",
+            "start": 9,
+            "end": 2
+        },
+    "VLSB": 
+        { 
+            "hours":"8am - 9pm",
+            "address": "2101 Valley Life Sciences Building University of California Berkeley, CA 94720-6500",
+            "start": 8,
+            "end": 21
+        },
+    "East Asian": 
+        { 
+            "hours":"9am - 5pm",
+            "address": "C. V. Starr East Asian Library University of California Berkeley, CA 94720-6000",
+            "start": 9,
+            "end": 17
+        },
+    "Engineering": 
+        { 
+            "hours":"9am - 12am",
+            "address": "Kresge Engineering Library 110 Bechtel Engineering Center University of California Berkeley, CA 94720-6000",
+            "start": 9,
+            "end": 24
+        },
+    "Environmental Design": 
+        { 
+            "hours":"9am - 10pm",
+            "address": "Environmental Design Library 210 Bauer Wurster Hall University of California Berkeley, CA 94720-6000",
+            "start": 9,
+            "end": 22
+        },
+    "Chemistry": 
+        { 
+            "hours":"9am - 7pm",
+            "address": "Chemistry and Chemical Engineering Library 100 Hildebrand Hall University of California Berkeley, CA 94720-6000",
+            "start": 9,
+            "end": 19
+        }
+}
