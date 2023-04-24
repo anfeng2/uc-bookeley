@@ -1,0 +1,41 @@
+.filters {
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.map-container {
+    flex: 1;
+}
+
+.filters-container {
+    position: relative;
+    display: flex;
+    border: 5px solid #3c4593;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 750px;
+    top: 35px;
+    left: 50px;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5; /* add this property to adjust the line height */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+input {
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: left;
+}
+
