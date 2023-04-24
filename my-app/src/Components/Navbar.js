@@ -18,7 +18,8 @@ const Navbar = () => {
             </Link>
             <div id="links">
                 <Link to="/uc-bookeley/" style={linkStyle} id="links">Home</Link>
-                <Link to="/uc-bookeley/mapfeed" style={linkStyle} >Interactive Map</Link>
+                <Link to="/uc-bookeley/mapfeed" style={linkStyle} id="links">Interactive Map</Link>
+                <Link to="/uc-bookeley/fav_libraries" style={linkStyle} >Favorite Libraries</Link>
             </div>
         </div>
     );

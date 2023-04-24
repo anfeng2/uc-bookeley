@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, LoadScript} from '@react-google-maps/api';
+// import { GoogleMap, LoadScript} from '@react-google-maps/api';
 import '../Styles/MapFeed.css';
 
 const MapFeed = () => {
@@ -42,12 +42,12 @@ const MapFeed = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="map">
+                {/* <div className="map">
                     <LoadScript googleMapApiKey="API_KEY_HERE">
                         <GoogleMap mapContainerStyle={mapStyles} zoom={14}
                             center={{ lat: 37.8716, lng: -122.2727 }}></GoogleMap>
                     </LoadScript>
-                </div>
+                </div> */}
             </div>
 
         </>

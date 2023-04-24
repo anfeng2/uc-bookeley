@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/Home.css';
 import Card from './Card';
 import banner_img from '../lib_img/banner_img.png';
@@ -22,6 +22,14 @@ const Home = () => {
         color: 'black'
     };
 
+    // const [Libs, setLibs] = useState(["Doe Library", "Moffitt Library", "Main Stacks", "VLSB", "East Asian Library", "Engineering Library", "Environmental Design Lib", "Chemistry Library"])
+    const [Libs, setLibs] = useState([])
+
+    const addLib = (lib) => {
+        return setLibs(lib => [Libs, ...lib])
+      };
+
+
     return (
         <div>
             <div>
@@ -32,36 +40,36 @@ const Home = () => {
             <br></br>
             <br></br>
             <br></br>
-            <h2>
+            <h2 class="h2">
                 Explore our libraries
             </h2>
             <div class="row">
                 <div class="column">                 
-                    <Card pic={doe} library="Doe Library" lib_json={lib_info["Doe"]}></Card>
+                    <Card pic={doe} library="Doe Library" lib_json={lib_info["Doe Library"]} addLib={addLib}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={moffitt} library="Moffitt Library" lib_json={lib_info["Moffitt"]}></Card>
+                    <Card pic={moffitt} library="Moffitt Library" lib_json={lib_info["Moffitt Library"]} addLib={addLib}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={main_stacks} library="Main Stacks" lib_json={lib_info["Main Stacks"]}></Card> 
+                    <Card pic={main_stacks} library="Main Stacks" lib_json={lib_info["Main Stacks"]} addLib={addLib}></Card> 
                 </div>
                 <div class="column">
-                    <Card pic={vlsb} library="VLSB" lib_json={lib_info["VLSB"]}></Card>
+                    <Card pic={vlsb} library="VLSB" lib_json={lib_info["VLSB"]} addLib={addLib}></Card>
                 </div>
             </div>
 
             <div class="row">
                 <div class="column">                 
-                    <Card pic={east_asian} library="East Asian Library" lib_json={lib_info["East Asian"]}></Card>
+                    <Card pic={east_asian} library="East Asian Library" lib_json={lib_info["East Asian Library"]} addLib={addLib}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={engineering} library="Engineering Library" lib_json={lib_info["Engineering"]}></Card>
+                    <Card pic={engineering} library="Engineering Library" lib_json={lib_info["Engineering Library"]} addLib={addLib}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={environ_design} library="Environmental Design Lib" lib_json={lib_info["Environmental Design"]}></Card>
+                    <Card pic={environ_design} library="Environmental Design Lib" lib_json={lib_info["Environmental Design Lib"]} addLib={addLib}></Card>
                 </div>
                 <div class="column">
-                    <Card pic={chemistry} library="Chemistry Library" lib_json={lib_info["Chemistry"]}></Card>
+                    <Card pic={chemistry} library="Chemistry Library" lib_json={lib_info["Chemistry Library"]} addLib={addLib}></Card>
                 </div>
             </div>
 
