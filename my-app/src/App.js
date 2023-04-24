@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/uc-bookeley/' element={<Home/>}/>
         <Route path='/uc-bookeley/mapfeed' element={<MapFeed/>} />
-        <Route path='/uc-bookeley/fav_libraries' element={<Favorite/>} />
+        <Route path='/uc-bookeley/favoritedLibraries' element={<Favorite/>} />
       </Routes>
     </Router>
   );

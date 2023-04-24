@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Styles/Card.css';
+import axios from 'axios';
+
+const url = "http://localhost:3000/library/favorite";
 
 
 const Card = (props) => {
@@ -10,7 +13,6 @@ const Card = (props) => {
     const start = lib_json["start"]
     const end = lib_json["end"]
     const address = lib_json["address"]
-    const addLib = props.addLib
 
     const today_hr = new Date().getHours()
 
@@ -42,17 +44,28 @@ const Card = (props) => {
         }
     }
 
+    function handleClick() {
+        console.log("Button clicked");
+        axios.post(url, {
+            libraryName: library
+        }).then((result) => {
+            console.log(result);
+        })
+    }
+
     return (
         <div>
             <div class="card">
                 <img src={pic} alt={library}></img>
                 <div class="hour">
                     <h2> {library} </h2>
-                    <button class="button fa fa-star" onClick={addLib}>
+                    <button class="button fa fa-star" onClick={() => handleClick()}>
                     </button>
                 </div>
                 <Open_Closed></Open_Closed>
                 <p>{address}</p>
+
+                {/* <button onClick={() => handleClick()}>Favorite</button> */}
             </div>
         </div>
 

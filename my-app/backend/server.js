@@ -1,11 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const InitiateMongoServer = require("./database/db");
+const cors = require('cors');
+
 
 const port = process.env.PORT || 3000;
 
 InitiateMongoServer();
 const app = express();
+app.use(cors());
 var router = express.Router()
 
 app.use(express.json()); // Utilities for request bodies
