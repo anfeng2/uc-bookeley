@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uc-bookeley/static/css/main.ce157aed.css",
-    "main.js": "/uc-bookeley/static/js/main.eb656375.js",
+    "main.css": "/uc-bookeley/static/css/main.90c96b2e.css",
+    "main.js": "/uc-bookeley/static/js/main.25a67d6a.js",
     "static/js/787.28cb0dcd.chunk.js": "/uc-bookeley/static/js/787.28cb0dcd.chunk.js",
     "static/media/banner_img.png": "/uc-bookeley/static/media/banner_img.2829779122d26d2ea4bf.png",
     "static/media/chemistry.png": "/uc-bookeley/static/media/chemistry.1eb6436f39cbdc77a865.png",
@@ -13,12 +13,12 @@
     "static/media/main_stacks.png": "/uc-bookeley/static/media/main_stacks.3608c057747eaa4585da.png",
     "static/media/doe.png": "/uc-bookeley/static/media/doe.1012a2fec5a84eca48b3.png",
     "index.html": "/uc-bookeley/index.html",
-    "main.ce157aed.css.map": "/uc-bookeley/static/css/main.ce157aed.css.map",
-    "main.eb656375.js.map": "/uc-bookeley/static/js/main.eb656375.js.map",
+    "main.90c96b2e.css.map": "/uc-bookeley/static/css/main.90c96b2e.css.map",
+    "main.25a67d6a.js.map": "/uc-bookeley/static/js/main.25a67d6a.js.map",
     "787.28cb0dcd.chunk.js.map": "/uc-bookeley/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce157aed.css",
-    "static/js/main.eb656375.js"
+    "static/css/main.90c96b2e.css",
+    "static/js/main.25a67d6a.js"
   ]
 }
