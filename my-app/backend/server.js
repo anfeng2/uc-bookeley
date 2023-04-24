@@ -20,6 +20,9 @@ router.get("/", (req, res) => {
 
 app.use('/', router)
 
+const libraryRouter = require("./routes/library.js");
+app.use('/library', libraryRouter);
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
