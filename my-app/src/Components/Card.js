@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Styles/Card.css';
+import axios from 'axios';
+
+const url = "http://localhost:3000/library/favorite";
 
 const Card = (props) => {
     const pic = props.pic
@@ -40,12 +43,23 @@ const Card = (props) => {
         }
     }
 
+    function handleClick() {
+        console.log("Button clicked");
+        axios.post(url, {
+            libraryName: library
+        }).then((result) => {
+            console.log(result);
+        })
+    }
+
     return (
         <div class="card">
             <img src={pic} alt={library}></img>
             <h2> {library} </h2>
             <Open_Closed></Open_Closed>
             <p>{address}</p>
+            
+            <button onClick={() => handleClick()}>Favorite</button>
         </div>
     );
 }

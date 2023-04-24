@@ -7,7 +7,8 @@ import {  Link } from "react-router-dom";
 const Navbar = () => {
     const linkStyle = {
         textDecoration: "none",
-        color: 'white'
+        color: 'white',
+        margin: '10px'
     };
 
     return (
@@ -19,6 +20,7 @@ const Navbar = () => {
             <div id="links">
                 <Link to="/uc-bookeley/" style={linkStyle} id="links">Home</Link>
                 <Link to="/uc-bookeley/mapfeed" style={linkStyle} >Interactive Map</Link>
+                <Link to="/uc-bookeley/favoritedLibraries" style={linkStyle}>Favorited Libraries</Link>
             </div>
         </div>
     );

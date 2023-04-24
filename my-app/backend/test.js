@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 axios.post('http://localhost:3000/library/favorite', {
-  library: "Moffit"
+  libraryName: "Moffit"
 })
 .then(response => {
   console.log(response.data);
@@ -17,3 +17,4 @@ axios.post('http://localhost:3000/library/favorite', {
 // .catch(error => {
 //   console.log(error);
 // });
+
